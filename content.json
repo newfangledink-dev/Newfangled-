@@ -46,7 +46,17 @@
       "hidden": false
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "id": "b1789445439624",
+      "title": "Tattoo Tips and Tricks",
+      "date": "2026-09-15",
+      "body": "Getting Your First Tattoo? Start Here.\nThinking about getting your first tattoo but not sure where to begin? In this video, I go over some helpful tips and tricks to make your first tattoo experience as smooth, comfortable, and stress-free as possible.\nFrom choosing the right design and placement to preparing for your appointment and knowing what to expect during the session, these tips will help you feel more confident before you sit in the chair.",
+      "image": "photos/blog-1.jpg",
+      "published": true,
+      "video": ""
+    }
+  ],
   "reviews": [],
   "settings": {
     "hero": "photos/hero.jpg",
