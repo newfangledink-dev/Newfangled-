@@ -1,11 +1,18 @@
-# Let real files serve themselves before any catch-all runs.
+# Real files (sitemap, robots, content, pages) always win before the catch-all.
 /sitemap.xml   /sitemap.xml   200
 /robots.txt    /robots.txt    200
 /content.json  /content.json  200
 
-# Hidden admin entry.
+# Clean URLs without the .html extension.
+/about         /about.html    200
+/services      /services.html 200
+/blog          /blog.html     200
+/contact       /contact.html  200
+/blog/tattoo-aftercare  /blog/tattoo-aftercare.html  200
+
+# Hidden admin entry (lives on the home page).
 /admin         /index.html    200
 /admin/        /index.html    200
 
-# Catch-all: everything else renders the single-page site.
+# Anything else falls back to the home page.
 /*             /index.html    200
