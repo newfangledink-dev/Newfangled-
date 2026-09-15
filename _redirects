@@ -1,2 +1,11 @@
-/admin    /index.html   200
-/admin/   /index.html   200
+# Let real files serve themselves before any catch-all runs.
+/sitemap.xml   /sitemap.xml   200
+/robots.txt    /robots.txt    200
+/content.json  /content.json  200
+
+# Hidden admin entry.
+/admin         /index.html    200
+/admin/        /index.html    200
+
+# Catch-all: everything else renders the single-page site.
+/*             /index.html    200
