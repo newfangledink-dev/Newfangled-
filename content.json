@@ -68,10 +68,33 @@
       "slug": "tattoo-tips-and-tricks-what-to-know-before-getting-a-new-tat"
     }
   ],
-  "reviews": [],
+  "reviews": [
+    {
+      "id": "r1789700868669",
+      "name": "Chloe Doras",
+      "rating": 5,
+      "text": "Excellent work and experience during the tattoo and I’m very happy with the final outcome. Will be going back for more soon",
+      "date": "1 day ago",
+      "hidden": true
+    }
+  ],
   "settings": {
+    "bgDim_about": 55,
+    "bgDim_portfolio": 55,
+    "bgDim_services": 55,
+    "bgDim_reviews": 55,
+    "bgDim_pricing": 55,
+    "bgDim_booking": 55,
+    "bgDim_faq": 55,
     "hero": "photos/hero.jpg",
     "portrait": "photos/portrait.jpg",
+    "bg_about": "",
+    "bg_portfolio": "",
+    "bg_services": "",
+    "bg_reviews": "",
+    "bg_pricing": "",
+    "bg_booking": "",
+    "bg_faq": "",
     "bookingUrl": "https://venue.ink/@tattwithmatt",
     "phone": "+15874176509",
     "instagram": "https://www.instagram.com/tattwithmatt",
@@ -79,6 +102,7 @@
     "tiktok": "https://www.tiktok.com/@tattwithmatt",
     "reviewUrl": "https://www.google.com/maps/place/Newfangled+Ink/@51.0275916,-114.4174709,10z/data=!3m1!4b1!4m6!3m5!1s0xd31928fdf077c11:0x689dc4f27f27e5e6!8m2!3d51.0276233!4d-114.087835!16s%2Fg%2F11nw0yy5qg?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
     "reviewWriteUrl": "https://g.page/r/CeblJ3_yxJ1oEBM/review",
+    "reviewWidget": "https://www.google.com/maps/place/Newfangled+Ink/@51.0275916,-114.4174709,10z/data=!3m1!4b1!4m6!3m5!1s0xd31928fdf077c11:0x689dc4f27f27e5e6!8m2!3d51.0276233!4d-114.087835!16s%2Fg%2F11nw0yy5qg?entry=ttu&g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D",
     "formEndpoint": "",
     "notifyEmail": "newfangledink@gmail.com",
     "formAccessKey": ""
